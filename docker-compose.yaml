@@ -23,6 +23,6 @@ services:
     environment: 
       - POSTGRES_DB=employee
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWPRD=employeepw
+      - POSTGRES_PASSWORD=employeepw
 volumes:
   dbdata:
