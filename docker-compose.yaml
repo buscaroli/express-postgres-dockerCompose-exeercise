@@ -20,9 +20,6 @@ services:
 
   db:
     image: postgres
-    volumes:
-      - "dbdata:/var/lib/postgresql/data"
-      - "./db:docker.entrypoint-initdb.d/:ro"
     environment: 
       - POSTGRES_DB=employee
       - POSTGRES_USER=postgres
